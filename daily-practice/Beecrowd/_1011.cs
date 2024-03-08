@@ -20,7 +20,7 @@ namespace daily_practice.Beecrowd
 
         public static double CalcVolume(double a, int b)
         {
-            double volume = 4.0 * Math.Pow(b, 3) * a / 3.0;
+            double volume = 4.0 * a * Math.Pow(b, 3) / 3.0;
             return volume;
         }
     }
