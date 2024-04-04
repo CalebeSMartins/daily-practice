@@ -12,9 +12,7 @@ namespace daily_practice.HackerRank
     {
         public static List<int> leftRotation()
         {
-            string[] value = Console.ReadLine().Split(' ');
-            int rot = Convert.ToInt32(value[0]);
-            //int n = Convert.ToInt32(value[1]);
+            int rot = Convert.ToInt32(Console.ReadLine());
 
             List<int> a = new List<int>() { 41, 73, 89, 7, 10, 1, 59, 58, 84, 77,
                                             77, 97, 58, 1, 86, 58, 26, 10, 86, 51 };
